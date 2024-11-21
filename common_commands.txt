@@ -1,1 +1,15 @@
 colon: to use commands.
+If I typed on something do not exist, it will basically create a new file.
+
+
+:q! 
+to quit and dismiss any changes I made.
+
+When we enter vim, we are at the normal mode.
+Bascially, every letter in the normal mode does not stand for anything.
+
+press letter I: insert mode
+To escape: press escape
+
+press colon and W: write into the document and save it!
+press colon, q and exclamation letter: discard any change we have made.
