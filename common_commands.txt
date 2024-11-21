@@ -13,3 +13,73 @@ To escape: press escape
 
 press colon and W: write into the document and save it!
 press colon, q and exclamation letter: discard any change we have made.
+
+press a: enter insert mode, but modify content before the flashing cursor
+
+press o: open a new line, and then I enter the insert mode.
+
+press capital I: enter the insert mode, and start at the beginning of the line.
+
+press capital O: opens an line above, and then enters the insert mode.
+
+to have line numbers:
+:set number
+
+then, type the number i and up button, you will up i lines.
+So does the down button.
+
+h, j, k and l keys: up, down, left and right.
+Four keys in a line. 
+
+:set relativenumber
+Instead of getting absolute line numbers, you get the relative
+line numbers (might be useful for copy and paste process)
+:set nornu
+Cancel getting relative line numbers.
+
+Go to the vim setting filc:
+$vi ~/.vimrc
+write these in the insert mode:
+set number
+set relativenumber
+set tabstop=4
+set shiftwidth=4
+set autoindent
+set mouse=a
+colorscheme slate
+
+type u: to undo
+ctrl + r: redo
+
+
+Third mode: visual mode (for selecting)
+type v: enter the visual mode
+select sth and type d: delete it
+type u: undo
+select sth and type y(yanking: copy)
+type p(paste)
+type d twice: delete the whole line.
+
+type c: change.
+change and delete essentially are same thing. The only difference
+is that when we change something, we will enter the insert mode after deleting.
+
+capital c: change the rest of the line.
+capital d: delete the rest of the line.
+
+I can jump between words. ( a string of characters separated with whitespace?)
+W: whitespace only
+w: also sth like hyphens
+
+b: backward
+
+d twice: delete the whole line.
+d w: delete the word.
+2 d w: delete two words.
+d i w: delete in a word(the whole word not the remaining part of a word)
+
+zero: go to the beginning of the line
+dollar symbol: go to the ending of the line
+d dollar symbol: delete until the end of the line.
+
+c i quotation mark: changing sth within the quotation mark.
