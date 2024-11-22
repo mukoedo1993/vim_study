@@ -83,3 +83,16 @@ dollar symbol: go to the ending of the line
 d dollar symbol: delete until the end of the line.
 
 c i quotation mark: changing sth within the quotation mark.
+
+percentage mark: 
+c i opening bracket: change everything inside
+
+t star: jump to the symbol before the closing star
+f star:  jump to the closing star
+
+d t opening-bracket: delete everything up until opening bracket
+
+
+jump to beginning of the file:  type g twice
+jump to the ending of the file: shift g
+jump to specify line: colon [line number]
