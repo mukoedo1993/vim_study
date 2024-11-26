@@ -1,0 +1,2 @@
+paste from clipboard:
+https://stackoverflow.com/questions/11489428/how-can-i-make-vim-paste-from-and-copy-to-the-systems-clipboard
